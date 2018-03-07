@@ -1,0 +1,834 @@
+@font-face {
+    font-family: 'helveticaLight';
+    src: url('../fonts/HelveticaLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'helveticaUltraLight';
+    src: url('../fonts/HelveticaUltraLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Cinzel-Regular';
+    src: url('../fonts/Cinzel-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'HelveticaLightItalic';
+    src: url('../fonts/HelveticaLightItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'HelveticaMedium';
+    src: url('../fonts/HelveticaMedium.ttf') format('truetype');
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/**
+*
+* Adjustment settings
+*
+**/
+
+html,
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+}
+
+.maincontent {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0;
+        -ms-flex: 1 0;
+            flex: 1 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+}
+
+button {
+    cursor: pointer;
+}
+/**
+*
+*  phone, logo, email
+*
+**/
+.contacts-logo-wrap {
+    background: url('../img/about.png') 56% center no-repeat;
+    -webkit-background-size: cover;
+            background-size: cover;
+    font-family: 'helveticaUltraLight';
+    font-size: 20px;
+    color: #fff;
+}
+    .background {
+        background: rgba(0, 0, 0, 0.72);
+    }
+        .header-wrap {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-wrap: nowrap;
+                -ms-flex-wrap: nowrap;
+                    flex-wrap: nowrap;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            margin-left: 42px;
+        }
+            .phone-wrap {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: end;
+                -webkit-justify-content: flex-end;
+                    -ms-flex-pack: end;
+                        justify-content: flex-end;
+                padding-top: 16px;
+            }
+                .number-phone {
+                    padding: 1px 0 0 21px;
+                    letter-spacing: 1.4px;
+                }
+            .logo-wrap {
+                width: 120px;
+                padding: 16px 0 0 31px;
+            }
+            .email-wrap {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: start;
+                -webkit-justify-content: flex-start;
+                    -ms-flex-pack: start;
+                        justify-content: flex-start;
+                padding: 11px 0 0 91px;
+            }
+            .email-adress {
+                padding: 2px 0 0 23px;
+                letter-spacing: 2px;
+            }
+/**
+*
+*  Title, Free Trial Form
+*
+**/
+.title-wrap {
+    text-align: center;
+    padding: 52px 27px 0 0;
+    font-family: 'Cinzel-Regular';
+}
+    .title {
+        font-size: 48px;
+        letter-spacing: -1.91px;
+    }
+.paragraph-wrap {
+    text-align: center;
+    padding: 22px 24px 0 0;
+    font-family: 'helveticaLight';
+}
+    .paragraph {
+        font-size: 20px;
+        letter-spacing: 0.84px;
+    }
+.title-free-period-wrap {
+    text-align: center;
+    padding: 10px 28px 0 0;
+    font-family: 'Cinzel-Regular';
+}
+    .title-free-period {
+        text-transform: uppercase;
+        font-size: 40px;
+        letter-spacing: -1.6px;
+    }
+.trial-period-form {
+    padding: 61px 29px 394px 0;
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+    .trial-period-form input {
+        width: 447px;
+        height: 62px;
+        margin-right: 10px;
+        border: 1px solid #000;
+        -webkit-border-radius: 5px;
+                border-radius: 5px;
+        padding: 7px 0 0 20px;
+        font-family: 'HelveticaLightItalic';
+        font-size: 30px;
+        letter-spacing: -1px;
+        color: #000;
+        -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    }
+    .trial-period-form button {
+        width: 478px;
+        background: #d5a370;
+        border: none;
+        text-transform: uppercase;
+        font-family: 'helveticaLight';
+        font-size: 30px;
+        padding-top: 14px;
+        letter-spacing: 0.7px;
+        -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+/**
+*
+* ABOUT LAWYER DIARY APP
+*
+**/
+.semicircle {
+    margin: -263px 0 0 0;
+    background: url('../img/circ.png') 52.5% center no-repeat;
+    height: 450px;
+    -webkit-background-size: cover;
+            background-size: cover;
+}
+.white-ellipse {
+    background: url('../img/circ-white.png') 51% center no-repeat;
+    margin: -470px 0 0 -30px;
+    height: 870px;
+}
+    .about-lawyer-title-wrap {
+        text-align: center;
+        padding: 113px 0 0 24px;
+        font-family: 'helveticaLight';
+    }
+        .about-lawyer-title {
+            text-transform: uppercase;
+            font-size: 40px;
+            letter-spacing: 3.3px;
+            color: #000;
+        }
+    .lawyer-diary-image-wrap {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        padding-top: 32px;
+    }
+        .lawyer-diary-image-note {
+            height: 193px;
+            width: 193px;
+            margin: 11px 0 0 182px;
+            -webkit-border-radius: 50%;
+                    border-radius: 50%;
+            border: 8px solid #f1bd86;
+            background: url('../img/block.png')no-repeat -9px 0;
+            position: relative;
+        }
+        .lawyer-diary-image-logo {
+            height: 234px;
+            width: 234px;
+            margin-left: 65px;
+            -webkit-border-radius: 50%;
+                    border-radius: 50%;
+            border: 8px solid #f1bd86;
+            background: url('../img/logo-about.png') center 19px no-repeat;
+            position: relative;
+        }
+        .lawyer-diary-image-phone {
+            height: 193px;
+            width: 193px;
+            margin: 11px 0 0 84px;
+            -webkit-border-radius: 50%;
+                    border-radius: 50%;
+            border: 8px solid #f1bd86;
+            background: url('../img/phone.png')no-repeat -33px 0;
+        }
+            .lawyer-diary-image-note:after {
+                content: url('../img/arrow-first.png');
+                position: absolute;
+                bottom: -30px;
+                right: -94px;
+            }
+            .lawyer-diary-image-logo:after {
+                content: url('../img/arrow-second.png');
+                position: absolute;
+                top: 1px;
+                right: -113px;
+            }
+    .lawyer-diary-descr-first-wrap {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 63px 0 0 44px;
+        font-family: 'helveticaLight';
+    }
+        .lawyer-diary-descr {
+            width: 440px;
+            font-size: 20px;
+            line-height: 29px;
+            margin-left: 62px;
+            letter-spacing: 1.2px;
+        }
+        .lawyer-diary-descr:nth-child(2) {
+            margin-left: 40px;
+        }
+    .lawyer-diary-descr-second-wrap {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        font-family: 'helveticaLight';
+        padding: 34px 0 0 44px;
+    }   
+    .lawyer-diary-descr-second-wrap .lawyer-diary-descr {
+        width: 440px;
+        font-size: 20px;
+        line-height: 29px;
+        margin-left: 62px;
+        letter-spacing: 1.6px;
+    }
+    .lawyer-diary-descr-second-wrap .lawyer-diary-descr:nth-child(2) {
+        margin-left: 43px;
+    }
+/**
+*
+* Why should you use Lawyer Diary App
+*
+**/
+.background-grey {
+    background: url('../img/arc.png') 51% 0 no-repeat;
+    -webkit-background-size: cover;
+            background-size: cover;
+    height: 288px;
+    margin-top: -168px;
+}
+.background-section {
+    background: rgba(89, 84, 84, 0.1);
+    font-family: 'helveticaLight';
+}
+    .why-diary-app-title-wrap {
+        text-align: center;
+        padding: 45px 16px 0 0;
+    }
+        .why-diary-app-title {
+            font-size: 40px;
+            text-transform: uppercase;
+            color: #000;
+            letter-spacing: 3.2px;
+        }
+    .figure-wrap {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        -webkit-box-align: baseline;
+        -webkit-align-items: baseline;
+            -ms-flex-align: baseline;
+                align-items: baseline;
+        padding: 77px 0 0 88px;
+    }
+        .figure-diary {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-flow: column nowrap;
+                -ms-flex-flow: column nowrap;
+                    flex-flow: column nowrap;
+            text-align: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
+        }
+        /* figure chat */
+            .diary-app-image-chat {
+                display: block;
+                width: 134px;
+                margin-left: 35px;
+            }
+                .figure-diary img {
+                    width: 100%;
+                }
+            .diary-app-descr-chat-wrap {
+                width: 246px;
+                padding-top: 18px;
+            }
+                .diary-app-descr {
+                    font-size: 28px;
+                    letter-spacing: 2.2px;
+                    line-height: 34px;
+                }
+        /* figure smartphones */
+    .diary-app-smartphones-wrap {
+        margin-left: 76px;
+    }
+        .diary-app-image-smartphones {
+            display: block;
+            width: 156px;
+            margin: 10px 0 0 24px;
+        }
+        .diary-app-descr-smartphones-wrap {
+            width: 275px;
+            padding-top: 15px;
+        }
+        /* figure smartphone */
+    .diary-app-smartphone-wrap {
+        margin: 22px 0 0 20px;
+    }
+        .diary-app-smartphone-image {
+            display: block;
+            width: 110px;
+        }
+        .diary-app-descr-smartphone-wrap {
+            width: 288px;
+            letter-spacing: 3px;
+            padding: 18px 0 0 6px;
+            margin-left: 32px;
+        }
+        /* figure auction */
+        .diary-app-auction-image {
+            display: block;
+            width: 135px;
+            padding-top: 50px;
+        }
+        .diary-app-descr-auction-wrap {
+            width: 300px;
+            padding-top: 14px;
+        }
+        /* figure checked */
+        .diary-app-checked-image {
+            display: block;
+            width: 130px;
+            margin: 8px 0 0 126px;
+        }
+        .diary-app-descr-checked-wrap {
+            width: 172px;
+            margin: 20px 0 0 100px;
+        }
+        /* figure calendar */
+        .diary-app-calendar-image {
+            display: block;
+            width: 125px;
+            margin: 14px 0 0 95px;
+        }
+        .diary-app-descr-calendar-wrap {
+            width: 270px;
+            margin: 23px 0 0 106px;
+        }
+        /* figure security */
+    .diary-app-security-wrap {
+        margin: 52px 0 0 204px;
+    }
+        .diary-app-security-image {
+            display: block;
+            width: 135px;
+        }
+        .diary-app-descr-security-wrap {
+            width: 250px;
+            margin: 20px 0 0 5px;
+        }
+        /* figure cloud */
+    .diary-app-cloud-wrap {
+        margin-left: 139px;
+        align-items: center;
+    }
+        .diary-app-cloud-image {
+            display: block;
+            width: 120px;
+        }
+        .diary-app-descr-cloud-wrap {
+            width: 155px;
+            margin: 24px 0 0 0;
+        }
+    .sign-up-btn-wrap {
+        text-align: center;
+    }
+    .sign-up-btn-wrap button {
+        width: 374px;
+        line-height: 24px;
+        padding: 26px 0 20px 6px;
+        background: #d5a370;
+        border: none;
+        text-transform: uppercase;
+        font-family: 'helveticaLight';
+        font-size: 30px;
+        letter-spacing: 2.8px;
+        margin: 60px 0 62px 30px;
+    }
+/**
+*
+* Section ONE-YEAR PLAN
+*
+**/
+.background-image {
+    background: url('../img/plan.jpg')center center no-repeat;
+    -webkit-background-size: cover;
+            background-size: cover;
+}
+    .block-wrap {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        font-family: 'helveticaLight';
+    }
+        .block-one-year-plan {
+            width: 504px;
+            background: #fff;
+            text-align: center;
+            margin: 92px 0 92px 0;
+            position: relative;
+        }
+            .flag {
+                position: absolute;
+                top: 6px; 
+                left: -14px;
+                padding: 8px 25px 3px 2px;
+                width: 152px; 
+                height: 42px;
+                background-color: #d5a370;
+                color: #fff;
+                font-size: 19px;
+                letter-spacing: 1.6px;
+            }
+            .flag:before {
+              content: '';
+              position: absolute;
+              display: block;
+              top: -5px; 
+              right: -1px;
+              width: 0; 
+              height: 0;
+              border: 26px solid transparent;
+              border-right-color: #fff;
+              -webkit-transform: scaley(0.8);
+                  -ms-transform: scaley(0.8);
+                      transform: scaley(0.8);
+            }
+            .one-year-plan-title {
+                padding: 62px 0 13px 6px;
+                font-size: 39px;
+                color: #000;
+                text-transform: uppercase;
+                line-height: 43px;
+                letter-spacing: 3px;
+            }
+            hr {
+                border: none; 
+                color: #d5a370; 
+                background-color: #d5a370;
+                height: 2px; 
+                width: 260px;
+            }
+            .down-line {
+                margin-top: 13px;
+            }
+            .one-year-plan-sum {
+                font-family: 'HelveticaMedium';
+                font-size: 39px;
+                line-height: 35px;
+                letter-spacing: 3px;
+                color: #000;
+                padding: 4px 0 0 0;
+                margin-left: -2px;
+            }
+            .devices {
+                padding: 18px 0 0 27px;
+                font-size: 25px;
+                line-height: 24px;
+                letter-spacing: 2px;
+            }
+            .billed,
+            .payment {
+                padding: 1px 0 0 25px;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 1.5px;
+            }
+            .payment {
+                padding: 0;
+                letter-spacing: 1.3px;
+            }
+            .billing {
+                font-size: 25px;
+                line-height: 24px;
+                letter-spacing: 1.9px;
+                padding-bottom: 54px;
+            }
+/** 
+*
+* Section Try a DEMO
+*
+**/
+.background-demo {
+    background: #fff;
+}
+    .section-wrap {
+        text-align: center;
+        font-family: 'helveticaLight';
+    }
+        .question {
+            padding-top: 52px;
+            font-size: 25px;
+            line-height: 24px;
+            letter-spacing: 1.9px;
+            margin-left: -5px;
+        }
+        .description {
+            padding-top: 2px;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 1.2px;
+        }
+        .img-wrap img {
+            margin: -5px 0 0 8px;
+        }
+        .btn-wrap button {
+            margin: 34px 0 56px -3px;
+            width: 429px;
+            background: #d5a370;
+            border: none;
+            text-transform: uppercase;
+            font-family: 'helveticaLight';
+            font-size: 26px;
+            padding-top: 14px;
+            letter-spacing: 2px;
+        }
+/** 
+*
+* more questions
+*
+**/
+.background-section-question {
+    background: #f4f4f4;
+}
+    .more-questions-wrap {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+        .back-list-item {
+            width: 715px;
+            height: 515px;
+            background: #d5a370;
+            margin: 72px 0 70px 0;
+            -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.5);
+                    box-shadow: 0 0 15px rgba(0,0,0,0.5); 
+            display: -webkit-box; 
+            display: -webkit-flex; 
+            display: -ms-flexbox; 
+            display: flex;
+        }
+        .more-questions-form-wrap {
+            width: 456px;
+            height: 487px;
+            background: #fff;
+            margin: 11px 0 0 -16px;
+            -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.8);
+                    box-shadow: 0 0 20px rgba(0,0,0,0.8); 
+        }
+        .more-questions-title {
+            font-family: 'helveticaLight';
+            font-size: 30px;
+            text-transform: uppercase;
+            padding: 38px 0 0 39px;
+            letter-spacing: 1.3px;
+        }
+        .more-questions-form {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-flow: column nowrap;
+                -ms-flex-flow: column nowrap;
+                    flex-flow: column nowrap;
+            font-family: 'HelveticaLightItalic';
+            font-size: 18px;
+        }
+        .more-questions-form input, textarea {
+            border: none;
+            border-bottom: 1px solid #d5a370;
+            letter-spacing: 1.1px;
+        }
+            .input-name {
+                margin: 15px 44px 0 42px;
+                padding: 0 0 5px 22px;
+            }
+            .input-email {
+                margin: 25px 44px 0 42px;
+                padding: 0 0 3px 22px;
+            }
+            .input-number {
+                margin: 28px 44px 0 42px;
+                padding: 0 0 2px 22px;
+            }
+            .textarea {
+                margin: 17px 44px 0 42px;
+                width: 364px;
+                height: 125px;
+                border: 1px solid #d5a370;
+                -webkit-border-radius: 5px;
+                        border-radius: 5px;
+                padding: 9px 0 0 20px;
+            }
+            .more-questions-form button {
+                margin: 9px 0 0 42px;
+                width: 364px;
+                padding: 12px 0 10px 0;
+                background: #d5a370;
+                border: none;
+                text-transform: uppercase;
+                font-family: 'helveticaLight';
+                font-size: 20px;
+                letter-spacing: 1.6px;
+            }
+        
+
+        .more-phone-img-wrap {
+            margin: -28px 0 0 -24px;
+        }
+/** 
+*
+* Footer
+*
+**/
+.footer {
+    background: url('../img/footer-back.png') center center no-repeat;
+    -webkit-background-size: cover;
+            background-size: cover;
+    font-family: 'helveticaLight';
+}
+    .footer-items-wrap {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 18px 0 26px 92px;
+    }
+        .footer-logo-descr-wrap {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-flow: column nowrap;
+                -ms-flex-flow: column nowrap;
+                    flex-flow: column nowrap;
+            padding-top: 6px;
+        }
+            .footer-descr-wrap {
+                padding-top: 19px;
+                width: 152px;
+                color: #fff;
+                font-size: 14px;
+                letter-spacing: 2px;
+                line-height: 18px;
+            }
+        .footer-contacts-wrap {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-flow: column nowrap;
+                -ms-flex-flow: column nowrap;
+                    flex-flow: column nowrap;
+            padding: 12px 0 0 160px;
+            font-family: 'HelveticaUltraLight';
+            font-size: 20px;
+            color: #fff;
+        }   
+            .footer-phone-descr-wrap {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+            }
+                .footer-phone-wrap {
+                    padding: 0 0 0 22px;
+                }
+                    .footer-phone-item {
+                        padding-top: 1px;
+                        letter-spacing: 1.3px;
+                    }
+            .footer-mail-descr-wrap {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                padding-left: 4px;
+            }
+                .footer-mail-item {
+                    padding: 2px 0 0 23px;
+                    letter-spacing: 2px;
+                }
+        .footer-btn-wrap {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-flow: column nowrap;
+                -ms-flex-flow: column nowrap;
+                    flex-flow: column nowrap;
+            margin: 0 0 0 86px;
+        }
+            .app-store {
+                background: url('../img/appstore.png')center center no-repeat;
+                -webkit-background-size: cover;
+                        background-size: cover;
+                width: 200px;
+                height: 64px;
+                border: none;
+            }
+            .google-store {
+                margin: 6px 0 0 4px;
+                background: url('../img/googleplay.png')center center no-repeat;
+                -webkit-background-size: contain;
+                        background-size: contain;
+                width: 194px;
+                height: 64px;
+                border: none;
+            }

@@ -1,0 +1,377 @@
+@media screen and (max-width: 1205px) {
+    .container {
+        width: 940px;
+    }
+    .contacts-logo-wrap {
+        background: url('../img/about.png') 45% center no-repeat;
+        -webkit-background-size: cover;
+                background-size: cover;
+    }
+    .lawyer-diary-image-wrap {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .lawyer-diary-image-note {
+        margin: 11px 0 0 0;
+    }
+    .lawyer-diary-image-logo {
+        margin-left: 60px;
+    }
+    .lawyer-diary-image-phone {
+        margin-left: 80px;
+    }
+    .lawyer-diary-descr-first-wrap {
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        padding-left: 0;
+    }
+    .lawyer-diary-descr-second-wrap {
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        padding-left: 0;
+    }
+    .figure-wrap {
+        padding-left: 0;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    .diary-app-smartphones-wrap {
+        margin-left: 0;
+    }
+    .diary-app-smartphone-wrap {
+        margin-left: 0;
+    }
+    .diary-app-descr-smartphone-wrap {
+        margin-left: 0;
+    }
+    .diary-app-checked-image {
+        margin-left: 0;
+    }
+    .diary-app-descr-checked-wrap {
+        margin-left: 0;
+    }
+    .diary-app-calendar-image {
+        margin-left: 0;
+    }
+    .diary-app-descr-calendar-wrap {
+        margin-left: 0;
+    }
+    .diary-app-security-wrap {
+        margin-left:180px;
+    }
+    .diary-app-cloud-wrap {
+        margin: 0 220px 0 0;
+    }
+    .diary-app-cloud-image {
+        margin-left: 0;
+    }
+    .footer-items-wrap {
+        padding-left: 0;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    .footer-contacts-wrap {
+        padding-left: 0;
+    }
+    .footer-btn-wrap {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .container {
+        width: 750px;
+    }
+    .contacts-logo-wrap {
+        background: url('../img/about.png') 45% center no-repeat;
+        -webkit-background-size: cover;
+                background-size: cover;
+    }
+    .header-wrap {
+        margin-left: 0;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    .number-phone {
+        padding: 1px 0 0 21px;
+    }
+    .logo-wrap {
+        padding: 16px 0 0 0;
+    }
+    .email-wrap {
+        padding: 11px 0 0 0;
+    }
+    .email-adress {
+        padding: 2px 0 0 21px;
+    }
+    .lawyer-diary-image-logo:after {
+        right: -117px;
+    }
+    .title-wrap {
+        padding-right: 0;
+    }
+    .paragraph-wrap {
+        padding-right: 0;
+    }
+    .title-free-period-wrap {
+        padding-right: 0;
+    }
+    .trial-period-form {
+        padding-right: 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: column nowrap;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .trial-period-form input {
+        width: 50%;
+        margin-right: 0;
+    }
+    .trial-period-form button {
+        width: 50%;
+        margin-top: 8px;
+    }
+    .lawyer-diary-descr-first-wrap {
+        padding-top: 40px;
+    }
+    .lawyer-diary-descr {
+        margin-left: 0;
+    }
+    .lawyer-diary-descr:nth-child(2) {
+        margin-left: 0;
+    }
+    .lawyer-diary-descr-second-wrap .lawyer-diary-descr {
+        margin-left: 0;
+        padding-right: 20px;
+    }
+    .lawyer-diary-descr-second-wrap .lawyer-diary-descr:nth-child(2) {
+        margin-left: 0;
+    }
+    .figure-wrap {
+        -webkit-justify-content: space-around;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+    }
+    .diary-app-descr-checked-wrap {
+        width: 270px;
+    }
+    .diary-app-security-wrap {
+        margin-left: 0;
+    }
+    .diary-app-cloud-wrap {
+        margin: 0 0 0 0;
+        width: 270px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .container {
+        width: auto;
+    }
+    .contacts-logo-wrap {
+        background: url('../img/about.png') 40% center no-repeat;
+        -webkit-background-size: cover;
+                background-size: cover;
+    }
+    .header-wrap {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: column nowrap;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .phone-wrap {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .logo-wrap {
+        padding-left: 0;
+        -webkit-box-ordinal-group: 0;
+        -webkit-order: -1;
+            -ms-flex-order: -1;
+                order: -1;
+     }
+    .email-wrap {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding-left: 0;
+    }
+    .lawyer-diary-image-wrap {
+        padding-left: 30px;
+    }
+    .lawyer-diary-image-note {
+        height: 180px;
+    }
+    .lawyer-diary-image-logo {
+        height: 220px;
+    }
+    .lawyer-diary-image-phone {
+        height: 180px;
+    }
+    .lawyer-diary-descr-first-wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: column nowrap;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: center;
+    }
+    .lawyer-diary-descr {
+        width: 90%;
+    }
+    .lawyer-diary-descr-second-wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: column nowrap;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: center;
+    }   
+    .lawyer-diary-descr-second-wrap .lawyer-diary-descr {
+        width: 90%;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    .container {
+        width: auto;
+    }
+    .trial-period-form input {
+        width: 90%;
+    }
+    .trial-period-form button {
+        width: 90%;
+    }
+    .about-lawyer-title-wrap {
+        padding: 700px 0 0 20px;
+        text-align: center;
+    }
+    .lawyer-diary-image-wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: column;
+            -ms-flex-flow: column;
+                flex-flow: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 0;
+    }
+    .lawyer-diary-image-logo {
+        margin: 10px 0 0 0;
+    }
+    .lawyer-diary-image-phone {
+        margin-left: 0; 
+    }
+    .lawyer-diary-image-note:after,
+    .lawyer-diary-image-logo:after {
+        display: none;
+    }
+    .white-ellipse {
+        background: url('../img/circ-white.png') 51% center no-repeat;
+        margin: -1120px 0 0 -30px;
+        height: 2170px;
+    }
+    .figure-wrap {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .sign-up-btn-wrap button {
+        width: 90%;
+        margin: 60px 0 62px 0;
+    }
+    .btn-wrap button {
+        margin: 34px 0 56px 0;
+        width: 90%;
+    }
+    .back-list-item {
+        width: 100%;
+    }
+    .more-questions-form-wrap {
+        width: 100%;
+        margin: 11px 0 0 -8px;
+    }
+    .more-questions-title {
+        padding: 38px 0 0 0;
+        text-align: center;
+    }
+    .textarea {
+        width: 76%;
+    }
+    .more-questions-form button {
+        margin: 9px 0 0 42px;
+        width: 76%;
+    }
+    .more-phone-img-wrap {
+        display: none;
+    }
+    .footer-items-wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: column nowrap;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 18px 0 26px 0;
+    }
+    .footer-btn-wrap {
+        -webkit-box-ordinal-group: -1;
+        -webkit-order: -2;
+            -ms-flex-order: -2;
+                order: -2;
+    }
+    .footer-contacts-wrap {
+        -webkit-box-ordinal-group: 0;
+        -webkit-order: -1;
+            -ms-flex-order: -1;
+                order: -1;
+    }
+}
